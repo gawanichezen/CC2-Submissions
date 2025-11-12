@@ -1,4 +1,3 @@
-package com.mycompany.retail1dinventory;
 
 public class Retail1DInventory {
 
@@ -6,7 +5,7 @@ public class Retail1DInventory {
         
         //Name of the Convenience Store and Separator
         System.out.println("\t\tChezen's Convenience Store Stock");
-        System.out.println("---------------------------------------------------------------");
+        System.out.println("-------------------------------------------------------------------");
         
         
         // Naming products and also saving order
@@ -34,7 +33,7 @@ public class Retail1DInventory {
         
         // Display inventory and calculate total stock value
         System.out.println("Product\t\tQuantity\t\tPrice\t\tTotal Value");
-        System.out.println("---------------------------------------------------------------");
+        System.out.println("-------------------------------------------------------------------");
         
         
         //Loop for printing the product, quantity, price, and total value
@@ -48,7 +47,7 @@ public class Retail1DInventory {
 
         }
             //Separator and print the total total value
-            System.out.println("---------------------------------------------------------------");
-            System.out.printf("Total Store Value: P%.2f", totalValue);
+            System.out.println("-------------------------------------------------------------------");
+            System.out.printf("Total Stock Value: P%.2f", totalValue);
     }
 }
